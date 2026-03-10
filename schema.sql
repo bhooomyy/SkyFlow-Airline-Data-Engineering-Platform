@@ -13,3 +13,12 @@ CREATE TABLE dim_airport(
         state_code VARCHAR(5),
         state_name VARCHAR(20)
 );
+
+CREATE TABLE dim_date(
+		flight_date DATE,
+        yearr INTEGER,
+        quarterr INTEGER,
+        monthh INTEGER,
+        day_of_month INTEGER,
+        day_of_week INTEGER
+);
